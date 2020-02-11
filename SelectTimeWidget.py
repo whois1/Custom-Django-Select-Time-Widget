@@ -132,10 +132,8 @@ class SelectTimeWidget(Widget):
             if minute_val > ( 60 - (self.minute_step/2)) and hour_val != 23: # round hour up 
                 hour_val += 1 
                 if self.twelve_hr:
-                    if hour_val >= 12:
-                        self.meridiem_val = 'p.m.'
-                    else:
-                        self.meridiem_val = 'a.m.'                    
+                    if hour_val == 12:
+                        self.meridiem_val = 'p.m.'                  
             minute_val =  self.minute_step * round(minute_val/self.minute_step) % 60
             
 
