@@ -1,9 +1,9 @@
 # Custom-Django-Select-Time-Widget
 
-modifed from 
-https://www.djangosnippets.org/snippets/1202/
-https://bradmontgomery.net/blog/selecttimewidget-a-custom-django-widget/
-made seconds optional and fixed some bugs.
+modifed from  
+https://www.djangosnippets.org/snippets/1202/  
+https://bradmontgomery.net/blog/selecttimewidget-a-custom-django-widget/  
+made seconds optional and fixed some bugs.  
 
 Similar to the SelectDateWidget located in django.forms.extras.widgets. Works with Times instead of Dates.
 
